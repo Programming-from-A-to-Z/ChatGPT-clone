@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatGPT Clone</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>ChatGPT Clone</h1>
+    <div id="chat-container"></div>
+    <div class="input-container">
+      <textarea
+        id="user-input"
+        placeholder="Type your message..."
+        onkeydown="if(event.keyCode === 13 && !event.shiftKey) { sendMessage(); event.preventDefault(); }"
+      ></textarea>
+      <button onclick="sendMessage()">Send</button>
+    </div>
+    <script src="chat.js"></script>
+  </body>
+</html>
