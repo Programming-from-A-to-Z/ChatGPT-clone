@@ -67,7 +67,7 @@ input[type='text'] {
 }
 
 button {
-  width: 100px; /* or any preferred width */
+  width: 100px;
   padding: 10px 15px;
   background-color: #007bff;
   color: #fff;
@@ -97,5 +97,5 @@ button:hover {
 
 .message-content {
   color: #333;
-  white-space: pre-line; /* Preserves newlines and spaces */
+  white-space: pre-line;
 }
